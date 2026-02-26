@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz </title>
+    <link rel="stylesheet" href="main3.css">
+</head>
+<body>
+    <div class="title">
+        Roblox Quiz 
+    </div>
+
+    <div class="container">
+        <!-- progress bar -->
+         <div class="progress-bar-bg" id="progress-bar-bg">
+            <div class="fill" id="fill"></div>
+         </div>
+
+        <!-- question label -->
+        <div class="question" id="question">
+            Questions Will Be Displayed Here. Press [START!] To Begin!
+        </div>
+
+        <!-- options -->  
+        <div class="option-box" id="option-box"></div>
+
+        <!-- score label-->
+        <div class="score-label" id="score-label"> You scored 0 point(s) </div>
+
+        <!-- feedback label -->
+         <div class="feedback-label" id="feedback-label"> Good Luck! </div>
+
+        <!-- start button -->
+         <button class="start-btn" id="start-btn"> START! </button>
+    </div>
+
+    <div class="timer">
+        <span id="timer-text"> 5 </span>
+    </div>
+
+    <!-- bgm dropdown -->
+     <select class="bgm" id="bgm">
+        <option value="Lobby Music (Original Soundtrack).mp3"> Kahoot! Lobby Music (Original Soundtrack) </option>
+        <option value="Edvard Grieg_ Peer Gynt - Morning Mood.mp3"> Morning Mood (Peer Gynt Suite No.1) </option>
+        <option value="ROSÉ & Bruno Mars - APT. (Lyrics).mp3"> APT. - ROSÉ & Bruno Mars </option>
+        <option value="JVKE - golden hour (official music video).mp3"> Golden Hour - JVKE </option>
+        <option value="Ed Sheeran  Shape of You (Lyrics).mp3"> Shape Of You - Ed Sheeran </option>
+     </select>
+
+     <button class="music" id="music"> 🔊 Music: On </button>
+
+
+    <script src="script.js"></script> 
+    
+</body>
+</html>
